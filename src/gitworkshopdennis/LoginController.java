@@ -9,14 +9,11 @@ package gitworkshopdennis;
  *
  * @author dhave
  */
-public class GitWorkshopDennis {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello Dennis");
-        LoginController login = new LoginController();
+public class LoginController {
+    
+    public LoginController() {
+        System.out.println("Created LoginController");
+        
     }
     
 }
